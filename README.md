@@ -1,9 +1,9 @@
 
-# ASK_YOUR_DOC 
+# ASK QUESTION TO YOUR_DOC 
 
 Ask question to your documents
 
-## Best Results (chunk_size 800) (notebook: exp_chunk800) document: xLSTM paper
+## Best Results, document: xLSTM paper, chunk_size 800 (notebook: exp_chunk800) 
 ### Question:
 **What are the major improvements over the previous LSTM architecture?**
 
@@ -25,7 +25,7 @@ architectures
 >- The major improvements over the previous LSTM architecture are the introduction of exponential gating and novel memory structures, including the sLSTM with scalar memory and update, and the mLSTM with matrix memory and covariance update rule.
 
 
-## Others results obtained 
+## Others results obtained, document: xLSTM paper (notebook: exp_chunk500_nobulletpoint)
 
 ### Question: **What are the major improvements over the previous or vanilla LSTM architecture?**
 #### 1) Without asking for bullet point summary and chunk_size 500

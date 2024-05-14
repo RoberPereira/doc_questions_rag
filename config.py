@@ -4,6 +4,7 @@ CHROMA_PATH = 'data/chroma'
 MODEL = 'gpt-3.5-turbo'
 
 FILE_NAME = 'xLSTM_paper.pdf'
+# FILE_NAME = 'AttentionIsAllYouNeed.pdf'
 
 TEMPLATE = """Use ONLY the following pieces of context to answer the question at the end.
 If you don't know the answer, just say that you don't know, NEVER make up an answer.
