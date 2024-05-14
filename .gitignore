@@ -14,8 +14,6 @@ __pycache__/
 Thumbs.db
 ehthumbs.db
 
-config.py
-
 # Ignore project-specific configuration files
 *.sublime-project
 *.sublime-workspace
