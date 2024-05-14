@@ -3,42 +3,7 @@
 
 Ask question to your documents
 
-## Installation
-
-Python version==3.11.5
-
-Start virtual enviroment. [venv](https://docs.python.org/3/library/venv.html#venv-def)
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
-
-Use pip-tools package manager to install project dependencies. [pip-tools](https://pip-tools.readthedocs.io/en/stable/)
-```bash
-python -m pip install pip-tools
-```
-
-To install dependencies from requirements.in run: 
-```bash
-pip-compile requirements.in
-pip install -r requirements.txt
-
-```
-
-Add your OpenAi Token to .env file:  
-```bash
-echo OPENAI_API_KEY=\'{your_token}\' > .env
-```
-
-
-## Usage
-Add your document in data\raw\ directory and modify config.py with your document name.
-
-```bash
-run.ipynb
-```
-
-## Best Results (chunk_size 800) (notebook: exp_chunk800)
+## Best Results (chunk_size 800) (notebook: exp_chunk800) document: xLSTM paper
 ### Question:
 **What are the major improvements over the previous LSTM architecture?**
 
@@ -83,3 +48,39 @@ architectures
 >- Introduction of exponential gating with normalization and stabilization techniques
 >- Modification of LSTM memory structure to include sLSTM with scalar memory and update, and mLSTM with matrix memory and covariance update rule
 >- These extensions allow for better handling of long context problems and improved efficiency in language modeling.
+
+
+## Installation
+
+Python version==3.11.5
+
+Start virtual enviroment. [venv](https://docs.python.org/3/library/venv.html#venv-def)
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Use pip-tools package manager to install project dependencies. [pip-tools](https://pip-tools.readthedocs.io/en/stable/)
+```bash
+python -m pip install pip-tools
+```
+
+To install dependencies from requirements.in run: 
+```bash
+pip-compile requirements.in
+pip install -r requirements.txt
+
+```
+
+Add your OpenAi Token to .env file:  
+```bash
+echo OPENAI_API_KEY=\'{your_token}\' > .env
+```
+
+
+## Usage
+Add your document in data\raw\ directory and modify config.py with your document name.
+
+```bash
+run.ipynb
+```
