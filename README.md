@@ -79,8 +79,14 @@ echo OPENAI_API_KEY=\'{your_token}\' > .env
 
 
 ## Usage
-Add your document in data\raw\ directory and modify config.py with your document name.
-
+- Add your document in data\raw\ directory
+- modify config.py with your:
+  - file_name:
+  - model: gpt-3.5-turbo (default)
+  - chunk_size : 800 (default)
+  - chunk_overlap : 500 (default)
+- modify template (at your convenience)
+- use the notebook:
 ```bash
 run.ipynb
 ```
