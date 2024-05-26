@@ -8,6 +8,7 @@ __pycache__/
 *.log
 *.sqlite3
 *.bin
+*.flake8
 
 # Ignore system and backup files
 .DS_Store
